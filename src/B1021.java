@@ -12,7 +12,7 @@ public class B1021 { // NÃO ACEITO
         for (int nota: notas) {
             int quantidade = (int) (dinheiro / nota);
             dinheiro %= nota;
-            System.out.printf("%d nota(s) de R$ %.2f\n",quantidade, nota / 1.0);
+            System.out.printf("%d nota(s) de R$ %.2f\n",quantidade, (double) nota );
         }
 
         System.out.printf("MOEDAS:\n");
